@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:  62.5%;
+}
+body{
+    background-color: rgb(15, 17, 26);
+}
+.box-padre{
+    width: 80rem;
+    height: 80rem;
+    outline: black solid 0.2rem;
+    background-color: rgb(59, 67, 102);
+    position: relative;
+    margin: 0  auto;
+    top: 7rem;
+}
+.box-padre h1{
+    padding: 8rem 5rem 5rem 8rem;
+}
+.box-padre__box-1{
+    width: 20rem;
+    height: 20rem;
+    background-color:darkcyan;
+    position: absolute;
+    outline: black solid 0.2rem;
+    z-index: 5;
+}
+.box-padre__box-2{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    left: 60rem;
+    background-color:cornflowerblue;
+    outline: black solid 0.2rem;
+    z-index: 5;
+}
+.box-padre__box-3{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    top: 60rem;
+    outline: black solid 0.2rem;
+    background-color:chartreuse ;
+    z-index: 5;
+}
+.box-padre__box-4{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    top: 60rem;
+    left: 60rem;
+    outline: black solid 0.2rem;
+    background-color: blueviolet;
+    z-index: 5;
+}
+.box-padre__decora-1{
+    width: 25rem;
+    height: 25rem;
+    outline: black solid 0.1rem;
+    background-color: rgb(79, 57, 208);
+    position: absolute;
+    z-index: 4;
+}
+.box-padre__decora-2{
+    width: 30rem;
+    height: 30rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    background-color: rgb(0, 234, 234);
+    z-index: 3;
+}
+.box-padre__decora-3{
+    width: 35rem;
+    height: 35rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    background-color: rgb(58, 33, 208);
+    z-index: 2;
+}
+.box-padre__decora-4{
+    width: 40rem;
+    height: 40rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    background-color: rgb(0, 254, 254);
+    z-index: 1;
+}
+.box-padre__decora-5{
+    width: 25rem;
+    height: 25rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    left: 55rem;
+    background-color: rgb(168, 192, 216);
+    z-index: 4;
+}
+.box-padre__decora-7{
+    width: 30rem;
+    height: 30rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    left: 50rem;
+    background-color: rgb(78, 134, 234);
+    z-index: 3;
+}
+.box-padre__decora-8{
+    width: 35rem;
+    height: 35rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    left: 45rem;
+    background-color: rgb(177, 214, 251);
+    z-index: 2;
+}
+.box-padre__decora-9{
+    width: 40rem;
+    height: 40rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    left: 40rem;
+    background-color: rgb(88, 147, 255);
+    z-index: 1;
+}
+.box-padre__decora-10{
+    width: 25rem;
+    height: 25rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    top: 55rem;
+    background-color: rgb(193, 208, 206);
+    z-index: 4;
+}
+.box-padre__decora-11{
+    width: 30rem;
+    height: 30rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    top: 50rem;
+    background-color: rgb(108, 212, 28);
+    z-index: 3;
+}
+.box-padre__decora-12{
+    width: 35rem;
+    height: 35rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    top: 45rem;
+    background-color: rgb(236, 255, 252);
+    z-index: 2;
+}
+.box-padre__decora-13{
+    width: 40rem;
+    height: 40rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    top: 40rem;
+    background-color: rgb(87, 239, 0);
+    z-index: 1;
+}
+.box-padre__decora-14{
+    width: 25rem;
+    height: 25rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    top: 55rem;
+    left: 55rem;
+    background-color: rgb(28, 224, 204);
+    z-index: 4;
+}
+.box-padre__decora-15{
+    width: 30rem;
+    height: 30rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    top: 50rem;
+    left: 50rem;
+    background-color: rgb(151, 62, 232);
+    z-index: 3;
+}
+.box-padre__decora-16{
+    width: 35rem;
+    height: 35rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    top: 45rem;
+    left: 45rem;
+    background-color: rgb(31, 248, 255);
+    z-index: 2;
+}
+.box-padre__decora-17{
+    width: 40rem;
+    height: 40rem;
+    outline: black solid 0.1rem;
+    position: absolute;
+    top: 40rem;
+    left: 40rem;
+    background-color: rgb(214, 67, 255);
+    z-index: 1;
+}
+.box-padre__boxSup{
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    outline: black solid 0.1rem;
+    top: 20rem;
+    left: 20rem;
+}
+.box-padre__boxSup h1{
+    padding: 9rem 5rem 5rem 8rem;
+}
+.box-padre__boxSup_box-1{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    outline: black solid 0.1rem;
+    background-color:darkslateblue;
+    z-index: 6;
+}
+.box-padre__boxSup_box-2{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    left: 20rem;
+    outline: black solid 0.1rem;
+    background-color: slategray;
+    z-index: 6;
+}
+.box-padre__boxSup_box-3{
+    width: 20rem;
+    height: 20rem;
+    top: 20rem;
+    position: absolute;
+    outline: black solid 0.1rem;
+    background-color:silver;
+    z-index: 6;
+}
+.box-padre__boxSup_box-4{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    top: 20rem;
+    left: 20rem;
+    outline: black solid 0.1rem;
+    background-color:turquoise;
+    z-index: 6;
+}
