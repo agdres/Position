@@ -42,7 +42,7 @@ body{
     width: 20rem;
     height: 20rem;
     position: absolute;
-    top: 60rem;
+    bottom: 0;
     outline: black solid 0.2rem;
     background-color:chartreuse ;
     z-index: 5;
@@ -51,7 +51,7 @@ body{
     width: 20rem;
     height: 20rem;
     position: absolute;
-    top: 60rem;
+    bottom: 0;
     left: 60rem;
     outline: black solid 0.2rem;
     background-color: blueviolet;
